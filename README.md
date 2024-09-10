@@ -1,2 +1,2 @@
 # webd-development-basics
-Welcome to Wed Dev Basics
+Welcome to Web Development Basics

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <header style="text-align: center; ">
+        <h1 style="color: goldenrod;">Introduction Forms in HTML</h1>
+    </header>
+    
+    <section>
+        <form action="index.html" method="get">
+           
+           <div>
+            <label for="name">Fullname: </label>
+            <input id="name" name="name" type="text" placeholder="fullname">
+           </div><br>
+
+        <div>
+            <label for="phone">Phone Number: </label>
+            <input id="phone" name="phone" type="tel" placeholder="phone">
+        </div><br>
+
+        <div>
+            <label for="gender">Gender: </label>
+            <select id="gender" name="gender">
+                <option>Select</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="address">Address: </label>
+            <textarea id="address" name="address"></textarea>
+        </div><br>
+
+        <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>

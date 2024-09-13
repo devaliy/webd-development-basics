@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+   margin: 0;
+   padding: 0;
+   background-color: rgb(242, 238, 233);
+}
+
+header {
+    background-color: black;
+    padding: 25px;
+}
+
+nav {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+  
+}
+a:hover {
+   color: goldenrod;
+}
+
+.section {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgb(6, 6, 6);
+}

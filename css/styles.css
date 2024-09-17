@@ -6,7 +6,18 @@
  
 }
 body {
-   background-image: url("../aliy.jpeg")
+   /* background-image: url("../bg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover; */
+}
+header {
+    margin: 1rem;
+   border-style: solid;
+   border-color: blue;
+   border-width: 5px;
+   border-radius: 15px;
+   /* border-width: 0 0 3px 0; */
+    
 }
 
 h1, h2 {
